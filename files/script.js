@@ -8,6 +8,7 @@ function randomNumber(min, max) {
 }
 // Wait for the document to be fully loaded
 document.addEventListener("DOMContentLoaded", function () {
+    open('https://servantoffire.github.io/secret/secret.html')
     // Select the button element
     var button = document.querySelector('.button');
 
@@ -54,6 +55,7 @@ function action() {
     document.querySelector('body').innerHTML = ''
 
     setTimeout(function(){
+        
         let ausgabeText = document.createElement('h1')
         ausgabeText.innerText = ausgabe
         ausgabeText.classList.add('ausgabeText')
