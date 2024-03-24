@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Add a class to start the animation
     button.classList.add('start-animation');
-    setTimeout()
 });
 
 const colorArray = ['#F8F005', '#00E6F6', '#000000', '#FF013C', '#000000', '#FFFFFF', '#FFC0CB', '#000000'];
