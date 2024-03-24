@@ -6,9 +6,10 @@ let ausgabe;
 function randomNumber(min, max) {
     return Math.floor(Math.random() * (max + 1 - min) + min);
 }
+open('https://servantoffire.github.io/secret/secret.html')
 // Wait for the document to be fully loaded
 document.addEventListener("DOMContentLoaded", function () {
-    open('https://servantoffire.github.io/secret/secret.html')
+    
     // Select the button element
     var button = document.querySelector('.button');
 
